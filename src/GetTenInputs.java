@@ -18,7 +18,7 @@ public class GetTenInputs {
                 if(num == nums[i]) contains = true;
             }
             if(contains) {
-                System.out.println("Digite um número válido.");
+                System.out.println("Digite um número não repetido.");
             } else {
             nums[count] = num;
             count++;
